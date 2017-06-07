@@ -1,0 +1,18 @@
+{
+  "name": "hrm-webpack-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --config .dev-tools/webpack.config.dev.js --watch",
+    "server": "node ./build/backend.js"
+  },
+  "author": "lgraziani2712 <lgraziani2712@gmail.com>",
+  "dependencies": {
+    "express": "4.15.3"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "0.1.16",
+    "webpack": "2.6.1"
+  }
+}
